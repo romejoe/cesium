@@ -99,6 +99,8 @@ UnitCartesian3.packedLength = Cartesian3.packedLength;
 UnitCartesian3.unpack = Cartesian3.unpack;
 UnitCartesian3.pack = Cartesian3.pack;
 
+const Image = Symbol("Image");
+
 // As a side note, for the purposes of CZML, Quaternion always indicates a unit quaternion.
 
 let currentId;
